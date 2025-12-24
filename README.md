@@ -1,7 +1,3 @@
-# Rin-
-An open-source AI agent framework exploring memory, observation, and decision loops.
-
-
 # Rin
 
 Rin is an open-source AI agent project focused on exploring how autonomous agents can observe their environment, maintain memory, and make decisions over time.
@@ -39,9 +35,11 @@ The focus is not on building a “finished product,” but on understanding *how
 
 ```text
 .
-├── src/            # Core agent logic
-├── memory/         # Memory handling modules
-├── agents/         # Agent definitions and behaviors
-├── docs/           # Design notes and explanations
-├── scripts/        # Utility and testing scripts
+├── Core/           # Identity  and handling
+├── logs/           # Where the agentic logs stay, all data will be transferred here
+├── agents/         # (coming in the future)
+├── tools/          # Specialties such as email, calendar, and more
+├── memory/         # Agent memory, alongside the database
+├── main.py         # where the main handling processes start
+├── memory_test.py  # Testing the memory for debugging purposes
 └── README.md
