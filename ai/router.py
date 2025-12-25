@@ -1,4 +1,3 @@
-  GNU nano 7.2                                                                                                   router.py
 import requests
 import json
 
