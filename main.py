@@ -70,5 +70,6 @@ while True:
     act(decision, context)
     store("last_context", context)
     time.sleep(5)
+    
 
 
